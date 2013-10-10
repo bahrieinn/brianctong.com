@@ -1,0 +1,184 @@
+/********** OVERALLL *************/
+
+p, h1, h2, h3, a, li {
+  /*color:#7A6E62;*/
+  color:#2d4044;
+  /*color:#a7a4a1;*/
+  /*font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+}
+
+.section-head {
+  margin: 0 auto;
+  text-align:center;
+  font-size:1.5em;
+}
+
+
+body {
+  margin:0;
+  background-color:#fdfaf5;
+}
+
+/********** NAVIGATION SECTION *************/
+
+.logo {
+  width: 80px;
+  border-radius:50%;
+  border: 5px solid white;
+  /*outline: 1px solid black;*/
+
+}
+
+nav {
+  height: 50px;
+}
+
+nav ul { 
+  list-style: none;
+  margin: 0;
+  padding:0;
+  text-align:center;
+}
+
+nav li {
+  display:inline-block;
+  margin: 0 10px;
+  padding: 5px 15px;
+
+}
+
+nav a {
+  display:inline-block;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+nav li:hover {
+  border-bottom: 1px solid #f2675e;
+}
+
+nav a:hover {
+  color: #f2675e;
+}
+
+
+
+/********** WELCOME SECTION *************/
+
+.welcome {
+  height: 300px;
+  background-color: #CBDECB;
+}
+
+.welcome p {
+  width: 50%;
+  height: 30%;
+  margin: 100px auto;
+  font-size:2em;
+  color:#2D4044;
+  padding-top:50px;
+}
+
+.my-name {
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+/********** PROJECT SECTION *************/
+
+.projects {
+  height: 400px;
+}
+
+.project-list {
+  margin-left:20%;
+}
+.projects li {
+  list-style:none;
+  display: inline-block;
+  margin: 2% 5%
+}
+
+.projects img {
+  height:200px;
+  width:250px;
+  border:5px solid #a7a4a1;
+    transition: opacity .10s ease-in-out;
+  -moz-transition: opacity .10s ease-in-out;
+  -webkit-transition: opacity .10s ease-in-out;
+}
+
+.projects img:hover {
+  opacity:0.5;
+}
+
+
+/********** ABOUT SECTION *************/
+
+.about {
+  height:300px;
+  background-color:#f2675e;
+}
+.about-wrap {
+  height:200px;
+  padding-top:50px;
+}
+.about_pic {
+  height: 150px;
+  width: 150px;
+  border-radius:50%;
+  border:5px solid white;
+  margin-left: 20%;
+  float:left;
+}
+
+.about-blurb {
+  width:50%;
+  float:left;
+  margin-left: 2%;
+}
+
+.about-blurb h3 a, .about-blurb p {
+  color:white;
+}
+
+.about-blurb h3 {
+  font-size:1.3em;
+}
+
+/********** CONTACT SECTION *************/
+
+.contact {
+  height: 100px;
+  /*background-color:#294357;*/
+}
+
+.contact-list {
+  height: 100px;
+  padding:0;
+  list-style:none;
+  text-align:center;
+  margin-top: 50px;
+}
+
+.contact-list li {
+  display:inline;
+  margin: 0 10px;
+  padding: 5px 15px;
+}
+
+.contact-list li a {
+  height:500px;
+  width:50px;
+  padding: 10px;
+}
+.contact-list img {
+  height:50px;
+  width: 50px;
+  
+}
+
+.linkedin img:hover {
+  background-image:url('../img/linkedin-blue.png');
+}
