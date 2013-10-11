@@ -157,6 +157,15 @@ nav a:hover {
   color:white;
 }
 
+.caption-features {
+  padding:0;
+}
+
+.caption-features li {
+  color:white;
+}
+
+
 #mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption  {
   opacity: 0;
   width: 230px;
@@ -169,6 +178,20 @@ nav a:hover {
   opacity: 0.8;
 }
 
+.caption .live-link, .caption .github-link {
+  color:white;
+  text-decoration: none;
+  padding: 2px 4px;
+  margin:0 5px;
+  background-color:#f2675e;
+  border-radius:2px;
+  opacity:1;
+}
+
+.live-link:hover, .github-link:hover {
+  color:black;
+  background-color:white;
+}
 
 /********** ABOUT SECTION *************/
 
