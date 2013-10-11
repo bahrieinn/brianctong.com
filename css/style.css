@@ -100,17 +100,60 @@ nav a:hover {
   margin: 2% 5%
 }
 
-.projects img {
-  height:200px;
-  width:250px;
-  border:5px solid #F3E8DE;
-    transition: opacity .10s ease-in-out;
-  -moz-transition: opacity .10s ease-in-out;
-  -webkit-transition: opacity .10s ease-in-out;
+
+#mainwrapper .box {  
+    border: 5px solid #fff;  
+    cursor: pointer;  
+    height: 200px;  
+    float: left;  
+    margin: 5px;  
+    position: relative;  
+    overflow: hidden;  
+    width: 250px;  
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;  
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;  
+    box-shadow: 1px 1px 1px 1px #ccc;  
+}  
+#mainwrapper .box img {
+    width: 250px;
+    height: 200px;  
+    position: absolute;  
+    left: 0;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+}  
+
+#mainwrapper .box .caption {  
+    background-color: black;  
+    position: absolute;  
+    color: #fff;  
+    z-index: 100;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+    left: 0;  
+}  
+
+.caption p {
+  margin:0;
+  color:white;
 }
 
-.projects img:hover {
-  opacity:0.5;
+#mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption  {
+  opacity: 0;
+  width: 230px;
+  height: 180px;
+  text-align: left;
+  padding: 10px;
+}
+/** Fade Caption :hover Behaviour **/
+#mainwrapper .box:hover .fade-caption, #mainwrapper .box:hover .scale-caption  {
+  opacity: 0.8;
 }
 
 
