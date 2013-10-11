@@ -222,6 +222,40 @@ nav a:hover {
   
 }
 
-.linkedin img:hover {
-  background-image:url('../img/linkedin-blue.png');
+/********** RESUME SECTION *************/
+.back-home {
+  float:left;
+  margin-left:15%;
+  margin-top:2%;
 }
+.resume-container {
+  width:50%;
+  margin:0 auto;
+}
+
+.resume-name {
+  font-size:2.5em;
+  float: left;
+}
+
+.printer-friendly {
+  float:right;
+  margin: 30px 10px ;
+}
+
+.resume-contact {
+  clear:both;
+}
+.resume-container a {
+  text-decoration:none;
+  color: #f2675e;
+}
+
+.exp-title, .exp-name {
+  margin:0;
+}
+
+.exp-title {
+  font-style:italic;
+}
+
