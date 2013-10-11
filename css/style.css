@@ -1,6 +1,6 @@
 /********** OVERALLL *************/
 
-p, h1, h2, h3, a, li {
+p, h1, h2, h3, a, li, ul {
   /*color:#7A6E62;*/
   color:#2d4044;
   /*color:#a7a4a1;*/
@@ -102,18 +102,31 @@ nav a:hover {
 
 
 #mainwrapper .box {  
-    border: 5px solid #fff;  
-    cursor: pointer;  
-    height: 200px;  
-    float: left;  
-    margin: 5px;  
-    position: relative;  
-    overflow: hidden;  
-    width: 250px;  
-    -webkit-box-shadow: 1px 1px 1px 1px #ccc;  
-    -moz-box-shadow: 1px 1px 1px 1px #ccc;  
-    box-shadow: 1px 1px 1px 1px #ccc;  
+  background-color:white;
+  border: 5px solid #fff;  
+  cursor: pointer;  
+  height: 230px;  
+  float: left;  
+  margin-top: 30px;
+  margin-left: 100px;  
+  position: relative;  
+  overflow: hidden;  
+  width: 250px;  
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;  
+  -moz-box-shadow: 1px 1px 1px 1px #ccc;  
+  box-shadow: 1px 1px 1px 1px #ccc;  
 }  
+
+.box .subtitle {
+  background-color:white;
+  position:absolute;
+  bottom:0;
+  margin-bottom:0;
+  width:250px;
+  text-align:center;
+  font-size:1.2em;
+}
+
 #mainwrapper .box img {
     width: 250px;
     height: 200px;  
