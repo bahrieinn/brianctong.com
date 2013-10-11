@@ -103,7 +103,7 @@ nav a:hover {
 .projects img {
   height:200px;
   width:250px;
-  border:5px solid #a7a4a1;
+  border:5px solid #F3E8DE;
     transition: opacity .10s ease-in-out;
   -moz-transition: opacity .10s ease-in-out;
   -webkit-transition: opacity .10s ease-in-out;
